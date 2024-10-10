@@ -1,0 +1,9 @@
+[package]
+name = "ndi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+libloading = "0.8.4"
+ndi-sys = { path = "../ndi-sys" }

@@ -1,0 +1,15 @@
+[package]
+name = "ndi-wayland-screenshare"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+ashpd = { version = "0.8.1", features = ["tokio", "pipewire"], default-features = false }
+env_logger = "0.11.3"
+log = "0.4.22"
+pipewire = "0.8.0"
+tokio = { version = "1.38.0", features = ["full"] }
+
+ndi = { path = "../ndi" }
+crossbeam-channel = "0.5.13"
